@@ -54,17 +54,6 @@ public class RBCTestTest {
         assertEquals(expResult, result);
     }    
 
-    
-        @Test
-    public void testDefaultPricesSumBasket2() {        
-        List<Fruit> basket = new ArrayList<>();
-        basket.add( new Apple() );
-        basket.add( new Orange() );
-
-        Integer expResult = 19;
-        Integer result = RBCTest.sumBasket(basket);
-        assertEquals(expResult, result);
-    }
     /**
      * Test of run method, of class RBCTest.
      */
