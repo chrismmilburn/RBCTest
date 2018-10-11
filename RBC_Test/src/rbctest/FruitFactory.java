@@ -13,6 +13,7 @@ import java.util.Optional;
  *
  * @author Chris Milburn
  * Create items of fruit given their name.
+ * (Sure there is a really neat way of doing this)
  */
 public class FruitFactory {
 
